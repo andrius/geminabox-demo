@@ -1,0 +1,4 @@
+source "http://gems.d.c0.lt:6789"
+
+gem 'hola', '= 0.0.1'
+gem 'pry'

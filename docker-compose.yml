@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  server:
+    build: .
+    ports:
+      - 0.0.0.0:6789:9292
+    volumes:
+      - ./data:/data
